@@ -15,6 +15,13 @@ This project implements a modular **Bronze-to-Gold** data architecture:
 2.  **Silver (Cleaning):** Data validation and transformation using PySpark.
 3.  **Gold (Aggregation):** Optimized SQL-based aggregation.
 
+### Data Modeling Strategy
+To ensure optimal performance and intuitive analysis within Power BI and Tableau, I architected the data models using a **Star Schema** approach:
+
+- **Fact Tables:** Centralized core metrics (e.g., Revenue, Inventory levels, Sales transactions) to maintain a singular source of truth.
+- **Dimension Tables:** Denormalized descriptive attributes (e.g., Product categories, Regional hierarchies, Time dimensions) to facilitate fast filtering and drill-down analysis.
+- **Architecture Rationale:** By implementing a Star Schema over a more complex Snowflake model, I significantly reduced join complexity, resulting in faster dashboard load times and a more user-friendly interface for executive reporting. 
+
 ### 🔗 Live Dashboard
 [Click here to view the published Dashboard](https://dbc-ff77c2ff-625c.cloud.databricks.com/dashboardsv3/01f15b545b3b16b5b2dbe9ca45dacd45/published?o=7474649180749334)
 
