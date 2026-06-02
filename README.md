@@ -19,6 +19,6 @@ This project implements a modular **Bronze-to-Gold** data architecture:
 [Click here to view the published Dashboard](https://dbc-ff77c2ff-625c.cloud.databricks.com/dashboardsv3/01f15b545b3b16b5b2dbe9ca45dacd45/published?o=7474649180749334)
 
 ### 📊 Dashboard Preview
-![Dashboard Preview]("C:\Users\Sukruth\Desktop\myproject\GITHUB\dashboard_preview.png")
+![Dashboard Preview](./dashboard_preview.png)
 ---
 *Part of a larger enterprise full-stack ecosystem. View the full suite architecture [here](https://github.com/swathi888-star/enterprise-inventory-management).*
