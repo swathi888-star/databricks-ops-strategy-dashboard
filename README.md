@@ -1,4 +1,3 @@
-%md
 # Operational Strategy & Cloud Analytics Suite
 
 This repository showcases the cloud-based data engineering and analytics pipeline for the **Operational Strategy Dashboard**. It focuses on scalable data processing using **Databricks** and **PySpark**, coupled with a dynamic visual layer for business intelligence.
